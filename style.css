@@ -31,6 +31,7 @@ body {
 	background: url("images/clouds.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+
 }
 
 .header {
@@ -132,9 +133,11 @@ ul {
 	display: flex;
 	grid-column: 1/-1;
 	align-items: center;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	font-size: medium;
+	padding-top: .01em;
+	padding-bottom: .01em;
+	font-size: large;
+	background: url("./images/yellowbackground.jpg");
+	font-family: 'Shrikhand', cursive, serif;
 
 }
 .skillsset {
@@ -161,7 +164,6 @@ ul {
   font-size: 1em;
   height: 100px;
   padding: 30px;
-  padding-bottom: 35px;
   padding-bottom: 35px;
   background-color:  #e6e6ff;
 
