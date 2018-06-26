@@ -20,7 +20,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #ccccb3;
   /*border: 1px solid rgba(0, 0, 0, 0.8);*/
   padding: 1em;
   font-size: 30px;
@@ -93,6 +93,7 @@ position: relative;
 	display: flex;
 	flex-direction: column;
 
+
 }
 .contentImage {
   border-radius: 95%;
@@ -121,14 +122,16 @@ position: relative;
 }
 
 ul {
-	list-style-type: none;	
+
+	align-items: center;
+	list-style-type: none;
+
 
 }
 .myProjects {
 	display: flex;
 	grid-column: 1/-1;
 	align-items: center;
-	justify-content: space-between;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	font-size: medium;
@@ -139,9 +142,9 @@ ul {
 	grid-column: 1/-1;
 	align-items: center;
 	list-style: none;
-	justify-content: space-between;
 	font-size: 100%;
 	padding-bottom: 35px;
+
 }
 .contactMe {
 	display: flex;
